@@ -1,0 +1,110 @@
+# =========================
+# Python general
+# =========================
+__pycache__/
+*.py[cod]
+*$py.class
+
+# =========================
+# Virtual environments
+# =========================
+venv/
+ENV/
+env/
+.venv/
+.virtualenv/
+.conda/
+conda_env/
+
+# =========================
+# Jupyter / notebooks
+# =========================
+.ipynb_checkpoints
+*.ipynb_meta.json
+
+# =========================
+# IDE and editor files
+# =========================
+.vscode/
+.idea/
+*.swp
+*.swo
+*.bak
+*.tmp
+*.log
+
+# =========================
+# System files
+# =========================
+.DS_Store
+Thumbs.db
+
+# =========================
+# Compiled and cache files
+# =========================
+*.so
+*.dll
+*.dylib
+*.pyd
+*.class
+*.jar
+
+# =========================
+# Distribution / packaging
+# =========================
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# =========================
+# Test / coverage
+# =========================
+htmlcov/
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+.hypothesis/
+.pytest_cache/
+
+# =========================
+# Project-specific
+# =========================
+# Ollama / embeddings results
+embeddings/
+pdf/
+
+# Temporary files
+*.out
+*.old
+*.orig
+
+# =========================
+# Logs
+# =========================
+logs/
+*.log
+
+# =========================
+# VSCode workspace
+# =========================
+*.code-workspace
